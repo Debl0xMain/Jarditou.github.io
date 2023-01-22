@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/Css/style.css" />
+  </head>
+  <body>
+    <!-- top and navbar -->
+    <header>
+      <div class="header1">
+        <div class="font1">
+          <h1 id="title1">Tout le jardin</h1>
+        </div>
+      </div>
+      <nav class="navbar">
+        <ul class="nave">
+          <a id="dropmenu" href="#"
+            ><div class="espacelogo">
+              <img
+                class="logo"
+                src="./Assets/Img/jarditou_logo-removebg-preview.png"
+                alt=""
+              /></div
+          ></a>
+          <li class="block"><a href="./index.html">Accueil</a></li>
+          <li class="block"><a href="tableau.html">Tableau</a></li>
+          <li class="block"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="imgbox">
+        <img class="img1" src="./Assets/Img/promotion.jpg" alt="Promotion" />
+      </div>
+      <h1 id="titlepage">Contact</h1>
+      <hr />
+    </header>
+    <!-- background -->
+    <img class="background" src="./Assets/Gif/backg.gif" cover alt="background" />>
+    <!-- Body  -->
+    <form class="fondu" action="http://bienvu.net/script.php" method="get">
+      <fieldset>
+        <small><p>*Ces zones sont obligatoire</p></small>
+        <fieldset>
+          <legend>Vos Coordonnés</legend>
+          <label for="Nom">Votre Nom*:</label><input id="Nom" type="text" />
+          <br />
+          <label for="Prenom">Votre prénom*:</label>
+          <input id="Prenom" type="text" />
+          <br />
+          <label for="Sexe">Sexe*: </label
+          ><input type="radio" name="sexe" value="Masculin" /><label
+            id="radio"
+            for=""
+            >Masculin</label
+          >
+          <input type="radio" name="sexe" value="Féminin" /><label
+            id="radio"
+            for=""
+            >Féminin</label
+          >
+          <br />
+          <label for="DateN">Date de Naissance*: </label
+          ><input id="DateN" type="date" />
+          <br />
+          <label for="CP">Code Postal*:</label><input id="CP" type="text" />
+          <br />
+          <label for="Adresse">Adresse :</label
+          ><input id="Adrese" type="text" />
+          <br />
+          <label for="Ville">Ville :</label><input id="Ville" type="text" />
+          <br />
+          <label for="email">Email*:</label
+          ><input
+            id="email"
+            type="text"
+            placeholder="Example:Ghuyth@gmail.com"
+          />
+        </fieldset>
+        <fieldset>
+          <legend>Votre demande</legend>
+          <label for="Sujet">Sujet*:</label>
+          <select>
+            <option value="">Veuillez séléctionner un sujet</option>
+            <option value="cmd">Mes commandes</option>
+            <option value="Question sur un produit">
+              Question sur un produit
+            </option>
+            <option value="Réclamation">Réclamation</option>
+            <option value="Autres">Autres</option>
+          </select>
+          <br />
+          <label for="Votre Question">Votre Question :</label
+          ><textarea name="" id="VotreQuestion" cols="25" rows="2"></textarea>
+        </fieldset>
+        <br />
+        <input type="checkbox" /><span
+          >*J'accepte le traitement informatique de ce formulaire</span
+        >
+        <br />
+        <br />
+        <button>Envoyer</button> <button>Annuler</button>
+      </fieldset>
+    </form>
+    <!-- footer -->
+    <div class="fnavbar">
+      <ul class="fnave">
+        <div class="topmenu" id="ftclick">
+          <li class="fblock"><a href="#">Mention légales</a></li>
+          <li class="fblock"><a href="#">Horaires</a></li>
+          <li class="fblock"><a href="#">Plan du site</a></li>
+        </div>
+        <a id="fdropmenu" href="#">
+          <div class="fespacelogo">
+            <p class="flogo">Information complémentaire</p>
+          </div>
+        </a>
+      </ul>
+    </div>
+    <!-- expand arrow (actif : -300px(withd) ; no-actif +300px(witdh))-->
+    <div class="expand">
+      <div class="boximgex">
+        <img class="exarrow" src="./Assets/Gif/arrows.gif" alt="↖↗" />
+        <p class="textex">Veuillez aggrandir la page pour voir son contenu</p>
+      </div>
+    </div>
+  </body>
+</html>
